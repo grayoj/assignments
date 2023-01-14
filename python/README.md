@@ -33,12 +33,12 @@ Then `svn checkout https://github.com/grayoj/assignments/tree/master/python`
 
 2. Now we have to set up the latest version of Python:
 
-```
-   python --version
-   sudo add-apt-repository --remove ppa:fkrull/deadsnakes
-   sudo apt-get update
-   sudo apt-get remove --purge python2
-   sudo apt install python3.10
+```shell
+python --version
+sudo add-apt-repository --remove ppa:fkrull/deadsnakes
+sudo apt-get update
+sudo apt-get remove --purge python2
+sudo apt install python3.10
 ```
 
 The above example is on a Linux machine. For windows, visit <a href="python.org">Python's official site</a>
