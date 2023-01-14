@@ -29,7 +29,7 @@ But if you're sticking with git like me:
 
 If you would prefer cloning a specific working directory and not the entire source code then use **svn**. To install svn, run `sudo apt-get install subversion`. I'm on a Linux machine, to replicate the same for your machine, kindly Google.
 
-Then `svn checkout https://github.com/lodash/lodash/trunk/test`
+Then `svn checkout https://github.com/grayoj/assignments/tree/master/python`
 
 2. Now we have to set up the latest version of Python:
 
